@@ -1,0 +1,25 @@
+{
+  "workspace_name": "",
+  "doc_no_patterns": [],
+  "clause_pattern": "\\d{1,2}(?:\\.\\d{1,2}){0,3}",
+  "version_keys": ["版本号", "版本", "修订号", "版次", "Rev", "Revision"],
+  "effective_date_keys": ["生效日期", "实施日期", "发布日期", "生效日"],
+  "owner_keys": ["编制", "责任人", "归口部门", "编写"],
+  "ignore_globs": ["~$*", "*.tmp", "*.bak", "*.old", "*.lnk", "*.ini", "Thumbs.db"],
+  "ignore_dirs": [
+    "旧版本",
+    "作废",
+    "作废文件",
+    "历史版本",
+    "备份",
+    "backup",
+    "_archive",
+    ".cb-index",
+    "System Volume Information"
+  ],
+  "max_files_warning": 2000,
+  "history_keep": 24,
+  "booktitle_refs": true,
+  "filename_refs": true,
+  "diff_min_section_len": 2
+}
